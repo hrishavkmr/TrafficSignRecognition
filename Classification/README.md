@@ -8,7 +8,7 @@
 5. Pickle
 6. Numpy
 
-To run this code, you need to download german traffic signs
+To run this code, you need to download German Traffic Sign Detection Benchmark
 
 The German Traffic Sign dataset consists of 43 different traffic sign with each image having 32×32 px size. This dataset has 39,209 images as training data (Using this number of an image we have to train a neural network) and 12,630 images as a test data. Each image is a photo of one of the 43 class of traffic sign.
 
