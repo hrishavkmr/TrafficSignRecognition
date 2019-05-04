@@ -19,7 +19,13 @@ While going through each class images and plotting the distribution of a number 
 
 ![Alt text](https://cdn-images-1.medium.com/max/800/1*mMigkDLgCsz3oENwoOdUOw.png)
 # Augmentation
-The dataset we have is fairly unbalanced which might make model more bias towards particular class plus deep learning models may have million of parameters which require vast amount data to tune it. In such cases, image augmentation helps us to generate more and balanced datasets. 
+The dataset we have is fairly unbalanced which might make model more bias towards particular class plus deep learning models may have million of parameters which require vast amount data to tune it. In such cases, image augmentation helps us to generate more and balanced datasets.
+Image augmentation techniques used are:
+1. width_shift_range = 0.1,
+2. height_shift_range = 0.1,
+3. zoom_range = 0.2,
+4. shear_range = 0.1,
+5. rotation_range = 10
 
 # Model Architecture
 I used LeNet as my base model and started playing with it. This is the point where I experimented a lot and tried to tune the parameter in the network (This part took the longest time for this project).
