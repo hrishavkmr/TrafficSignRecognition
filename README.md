@@ -13,8 +13,8 @@
 
 ## Flow of the project
 Step 1. Traffic image detection(using tensorflow object detection API)  
-Step 2. Extracting the traffic sign and reshaping to 32x32 
-Step 3. Loading the traffic sign classification model(trained_model.h5) and signnames.csv
-Step 4. making predictions on the extracted image
+Step 2. Extracting the traffic sign and reshaping to 32x32.
+Step 3. Loading the traffic sign classification model(trained_model.h5) and signnames.csv.
+Step 4. making predictions on the extracted image.
 
 ### To get the Information about Traffic sign classification (CNN model and augmentation techniques used), refer to Classification folder in this repository.
